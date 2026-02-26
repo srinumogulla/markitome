@@ -3,12 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: "./",   // 👈 CHANGE THIS
-
-  server: {
-    host: true,
-    port: 8080,
-  },
+  base: "/markitome/",   // 👈 MUST match repo name exactly
 
   plugins: [react()],
 
